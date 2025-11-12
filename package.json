@@ -13,7 +13,8 @@
     "dev": "vite",
     "build:test": "vite build  --base=/admin/ --mode test",
     "build:pre": "vite build  --mode pre",
-    "build:prod": "vite build  --mode production"
+    "build:prod": "vite build  --mode production",
+    "vercel-build": "vite build --mode production"
   },
   "type": "module",
   "dependencies": {
