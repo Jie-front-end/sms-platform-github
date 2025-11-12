@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "短信平台 - API 文档": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "apifox-mcp-server@latest",
+        "--project-id=7357253"
+      ],
+      "env": {
+        "APIFOX_ACCESS_TOKEN": "APS-rhLjcgfb1y37oMJDzZaA49yVGcf209Oi"
+      }
+    }
+  }
+}

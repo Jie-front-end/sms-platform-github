@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+**/.DS_Store
+dist
+dist-ssr
+*.local
+.idea
+
+# 部署配置（包含服务器密码等敏感信息）
+deploy/deploy.config.local.js
+deploy/node_modules
+deploy/package-lock.json
