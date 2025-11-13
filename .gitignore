@@ -10,3 +10,4 @@ dist-ssr
 deploy/deploy.config.local.js
 deploy/node_modules
 deploy/package-lock.json
+.vercel

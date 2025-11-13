@@ -12,6 +12,24 @@
       "env": {
         "APIFOX_ACCESS_TOKEN": "APS-rhLjcgfb1y37oMJDzZaA49yVGcf209Oi"
       }
+    },
+    "playwright": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@executeautomation/playwright-mcp-server"
+      ]
+    },
+    "chrome-devtools": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ]
     }
   }
 }

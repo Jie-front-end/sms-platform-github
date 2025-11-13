@@ -1,6 +1,25 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(vercel --version:*)",
+      "Bash(npm install:*)",
+      "Bash(vercel login:*)",
+      "Bash(vercel whoami:*)",
+      "Bash(vercel:*)",
+      "Bash(npx playwright install)",
+      "Bash(npx playwright@1.49 install chromium)",
+      "Bash(npx playwright@1.50 install:*)",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__press_key",
+      "mcp__chrome-devtools__evaluate_script",
+      "mcp__playwright__playwright_get_visible_html",
+      "mcp__chrome-devtools__click",
+      "mcp__chrome-devtools__take_snapshot",
+      "mcp__chrome-devtools__close_page"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "短信平台 - API 文档"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }
