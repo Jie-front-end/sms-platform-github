@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gpt5": {
+      "command": "node",
+      "args": [
+        "D:\\a-code\\vue\\sms-platform-github\\gpt5-mcp-server\\index.js"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "your-api-key-here"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# 忽略依赖和环境文件
+node_modules/
+.env
+.DS_Store
+
+# 忽略日志文件
+*.log
+npm-debug.log*
+
+# 忽略编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo

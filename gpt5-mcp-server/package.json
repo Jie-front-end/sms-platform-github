@@ -1,0 +1,24 @@
+{
+  "name": "gpt5-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for GPT-5 chat integration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "mcp",
+    "gpt5",
+    "openai",
+    "chat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "openai": "^4.73.0",
+    "dotenv": "^16.4.7"
+  }
+}
